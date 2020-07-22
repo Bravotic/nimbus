@@ -14,5 +14,5 @@ if [ ! -f "$srcdir/metacity/metacity-theme-1.xml" ]; then
  exit 1
 fi
 
-. gnome-autogen.sh
+./gnome-autogen.sh
 
