@@ -1,7 +1,9 @@
-This is a repository for default OpenIndiana theme.
+This repository has been forked from OpenIndiana which modifies their default Nimbus theme to work on Linux.  The theme supports both GTK2 and GTK3, and includes the icon theme.  Paired with the DMZ cursor theme, its almost like we're running Open Solaris again!
 
-After modifying theme, be sure to check how /usr/demo/jds/bin/gtk-demo, /usr/demo/jds/bin/gtk3-demo look
-and general Mate desktop appearance.
+Currently to build, simply type
 
-For building, use https://github.com/OpenIndiana/oi-userland/tree/oi/hipster/components/desktop/nimbus/
-component.
+./autogen.sh
+make
+sudo make install
+
+If for some reason the theme does not appear, try moving the files from "/usr/local/share/themes" to "/usr/local/themes", or alternatively "$HOME/.themes".
